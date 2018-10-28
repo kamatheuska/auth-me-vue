@@ -12,7 +12,7 @@ import {
     SET_SERVER_REGISTRATION_MESSAGE,
     CHANGE_SERVER_AUTH_STATUS,
     CHANGE_SERVER_REGISTRATION_STATUS
-} from './mutation-types'
+} from '../mutation-types'
 
 const state = {
     user: {

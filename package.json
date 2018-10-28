@@ -4,9 +4,6 @@
     "private": false,
     "author": "Nicolas Ramirez <nicolas.ramirez.ka@gmail.com (https://www.nikameush.com)",
     "main": "index.js",
-    "dependencies": {
-        "axios": "^0.18.0"
-    },
     "devDependencies": {
         "vue": "^2.5.16",
         "vue-template-compiler": "^2.5.16"
