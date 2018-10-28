@@ -1,0 +1,37 @@
+{
+  "name": "plug-me-auth",
+  "version": "0.1.0",
+  "private": false,
+  "author": "Nicolas Ramirez <nicolas.ramirez.ka@gmail.com (https://www.nikameush.com)",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.1",
+    "@vue/cli-plugin-eslint": "^3.0.1",
+    "@vue/cli-plugin-unit-jest": "^3.0.1",
+    "@vue/cli-service": "^3.0.1",
+    "@vue/eslint-config-standard": "^3.0.5",
+    "@vue/test-utils": "^1.0.0-beta.20",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^23.0.1",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "keywords": [
+      "vue",
+      "authentication",
+      "vue-plugin",
+      "plugin"
+  ],
+  "license": "MIT"
+}
