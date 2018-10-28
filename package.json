@@ -1,26 +1,21 @@
 {
-  "name": "auth-me-plug",
-  "version": "0.1.0",
-  "private": false,
-  "author": "Nicolas Ramirez <nicolas.ramirez.ka@gmail.com (https://www.nikameush.com)",
-  "main": "dist/auth-me-vue.umd.js",
-  "scripts": {
-
-  },
-  "dependencies": {
-    "axios": "^0.18.0",
-    "vue": "^2.5.17",
-    "vue-router": "^3.0.1",
-    "vuex": "^3.0.1"
-  },
-  "devDependencies": {
-      
-  },
-  "keywords": [
-      "vue",
-      "authentication",
-      "vue-plugin",
-      "plugin"
-  ],
-  "license": "MIT"
+    "name": "auth-me-plug",
+    "version": "0.1.0",
+    "private": false,
+    "author": "Nicolas Ramirez <nicolas.ramirez.ka@gmail.com (https://www.nikameush.com)",
+    "main": "index.js",
+    "dependencies": {
+        "axios": "^0.18.0"
+    },
+    "devDependencies": {
+        "vue": "^2.5.16",
+        "vue-template-compiler": "^2.5.16"
+    },
+    "keywords": [
+        "vue",
+        "authentication",
+        "vue-plugin",
+        "plugin"
+    ],
+    "license": "MIT"
 }
