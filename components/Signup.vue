@@ -44,7 +44,7 @@
 </template>
 
 <script>
-import './resetStyles.css'
+import '../css/resetStyles.css'
 import {
     mapActions,
     mapState,
@@ -54,7 +54,7 @@ import {
     UPDATE_USER_PROPS,
     TOGGLE_LOGIN,
     TOGGLE_SIGNUP
-} from '@/auth/mutation-types'
+} from '../mutation-types'
 
 export default {
     name: 'sign-up-app',

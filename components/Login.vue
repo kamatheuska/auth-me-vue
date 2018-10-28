@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import './resetStyles.css'
+import '../css/resetStyles.css'
 import {
     mapActions,
     mapState,
@@ -35,9 +35,8 @@ import {
 } from 'vuex'
 import {
     UPDATE_USER_PROPS,
-    TOGGLE_SIGNUP,
-    TOGGLE_LOGIN
-} from '@/auth/mutation-types'
+    TOGGLE_SIGNUP
+} from '../mutation-types'
 
 export default {
     name: 'login-app',
