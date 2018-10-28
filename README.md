@@ -14,8 +14,8 @@ Add the modules `server` and `user` to the `store`, like this:
 import Vue from 'vue'
 import Vuex from 'vuex'
 
-import users from '@/auth-my-vue/modules/users'
-import server from '@/auth-my-vue/modules/server'
+import users from 'auth-me-plug/modules/users'
+import server from 'auth-me-plug/modules/server'
 
 Vue.use(Vuex)
 

@@ -7,7 +7,7 @@ import {
     TOGGLE_LOGIN,
     TOGGLE_SIGNUP,
     SET_SERVER_REGISTRATION_MESSAGE
-} from './mutation-types'
+} from '../mutation-types'
 
 const state = {
     server: {
